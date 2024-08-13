@@ -1,0 +1,52 @@
+[
+    {
+        "ID": 1,
+        "cover_picture": "https://images.unsplash.com/photo-1506765515384-028b60a970df",
+        "title": "The Future of AI",
+        "author": "Jane Doe",
+        "author_img": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde",
+        "posted_date": "2024-08-13",
+        "reading_time": 5,
+        "hashtags": ["#AI", "#Technology", "#Future"]
+    },
+    {
+        "ID": 2,
+        "cover_picture": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+        "title": "Mastering Front-End Development",
+        "author": "John Smith",
+        "author_img": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39",
+        "posted_date": "2024-08-10",
+        "reading_time": 8,
+        "hashtags": ["#WebDevelopment", "#JavaScript", "#CSS"]
+    },
+    {
+        "ID": 3,
+        "cover_picture": "https://images.unsplash.com/photo-1535223289827-42f1e9919769",
+        "title": "Exploring the World of Quantum Computing",
+        "author": "Alice Johnson",
+        "author_img": "https://images.unsplash.com/photo-1554151228-14d9def656e4",
+        "posted_date": "2024-08-05",
+        "reading_time": 7,
+        "hashtags": ["#QuantumComputing", "#Science", "#Innovation"]
+    },
+    {
+        "ID": 4,
+        "cover_picture": "https://images.unsplash.com/photo-1507556210463-3eaf5389a804",
+        "title": "The Art of Graphic Design",
+        "author": "Michael Brown",
+        "author_img": "https://images.unsplash.com/photo-1527980965255-d3b416303d12",
+        "posted_date": "2024-08-01",
+        "reading_time": 6,
+        "hashtags": ["#GraphicDesign", "#Creativity", "#Art"]
+    },
+    {
+        "ID": 5,
+        "cover_picture": "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e",
+        "title": "Effective Digital Marketing Strategies",
+        "author": "Emily Davis",
+        "author_img": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce",
+        "posted_date": "2024-07-28",
+        "reading_time": 10,
+        "hashtags": ["#DigitalMarketing", "#SEO", "#MarketingTips"]
+    }
+]
