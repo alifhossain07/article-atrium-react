@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,5 +8,7 @@
 
 body{
     font-family: "Exo 2", sans-serif;
+    width: 80%; /* Set the desired width */
+    margin: 0 auto; /* Center the body */
 }
 
