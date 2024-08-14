@@ -1,34 +1,36 @@
-import { useState } from 'react'
-import './App.css'
-import Blogs from './components/Blogs/Blogs'
-import Bookmarks from './components/Bookmarks/Bookmarks'
-import Header from './components/Header/Header'
+import { useState } from 'react';
+import './App.css';
+import Blogs from './components/Blogs/Blogs';
+import Bookmarks from './components/Bookmarks/Bookmarks';
+import Header from './components/Header/Header';
 
 function App() {
-  
-
   const [bookmarks, setBookmarks] = useState([]); 
+  const [readingTime, setReadingTime] = useState(0); 
 
-  const handleAddToBookmark = blog =>{
+  const handleAddToBookmark = blog => {
+    const isBookmarked = bookmarks.some(bookmark => bookmark.id === blog.id);
     
-    const newBookmarks = [...bookmarks, blog];
-    setBookmarks(newBookmarks);
-    
-  }
+    if (!isBookmarked) {
+        const newBookmarks = [...bookmarks, blog];
+        setBookmarks(newBookmarks);
+    }
+  };
 
+  const handleMarkAsRead = time => {
+    const newReadingTime = (Number(readingTime) || 0) + Number(time);
+    setReadingTime(newReadingTime);
+  };
 
   return (
     <>
-      
-      <Header></Header>
+      <Header />
       <div className='md:flex max-w-7xl'>
-      <Blogs handleAddToBookmark={handleAddToBookmark}></Blogs>
-      <Bookmarks bookmarks={bookmarks}></Bookmarks>
+        <Blogs handleMarkAsRead={handleMarkAsRead} handleAddToBookmark={handleAddToBookmark} />
+        <Bookmarks bookmarks={bookmarks} readingTime={readingTime} />
       </div>
-      
-      
     </>
-  )
+  );
 }
 
-export default App
+export default App;

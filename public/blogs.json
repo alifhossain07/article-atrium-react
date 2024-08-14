@@ -1,6 +1,6 @@
 [
     {
-        "ID": 1,
+        "id": 1,
         "cover_picture": "https://images.unsplash.com/photo-1506765515384-028b60a970df",
         "title": "The Future of AI",
         "author": "Jane Doe",
@@ -10,7 +10,7 @@
         "hashtags": ["#AI", "#Technology", "#Future"]
     },
     {
-        "ID": 2,
+        "id": 2,
         "cover_picture": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
         "title": "Mastering Front-End Development",
         "author": "John Smith",
@@ -20,7 +20,7 @@
         "hashtags": ["#WebDevelopment", "#JavaScript", "#CSS"]
     },
     {
-        "ID": 3,
+        "id": 3,
         "cover_picture": "https://images.unsplash.com/photo-1535223289827-42f1e9919769",
         "title": "Exploring the World of Quantum Computing",
         "author": "Alice Johnson",
@@ -30,7 +30,7 @@
         "hashtags": ["#QuantumComputing", "#Science", "#Innovation"]
     },
     {
-        "ID": 4,
+        "id": 4,
         "cover_picture": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b",
         "title": "The Art of Graphic Design",
         "author": "Michael Brown",
@@ -40,7 +40,7 @@
         "hashtags": ["#GraphicDesign", "#Creativity", "#Art"]
     },
     {
-        "ID": 5,
+        "id": 5,
         "cover_picture": "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e",
         "title": "Effective Digital Marketing Strategies",
         "author": "Emily Davis",
