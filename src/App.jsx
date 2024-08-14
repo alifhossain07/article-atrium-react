@@ -9,7 +9,7 @@ function App() {
     <>
       
       <Header></Header>
-      <div className='md:flex'>
+      <div className='md:flex max-w-7xl'>
       <Blogs></Blogs>
       <Bookmarks></Bookmarks>
       </div>
