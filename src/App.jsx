@@ -3,6 +3,7 @@ import './App.css';
 import Blogs from './components/Blogs/Blogs';
 import Bookmarks from './components/Bookmarks/Bookmarks';
 import Header from './components/Header/Header';
+import Banner from './components/Banner/Banner';
 
 function App() {
   const [bookmarks, setBookmarks] = useState([]); 
@@ -28,6 +29,7 @@ function App() {
   return (
     <>
       <Header />
+      <Banner></Banner>
       <div className='md:flex max-w-7xl'>
         <Blogs handleMarkAsRead={handleMarkAsRead} handleAddToBookmark={handleAddToBookmark} />
         <Bookmarks bookmarks={bookmarks} readingTime={readingTime} />

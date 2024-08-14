@@ -1,33 +1,3 @@
-.fixed-bookmarks {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 300px; /* Adjust width as needed */
-    height: 100vh; /* Full height */
-    overflow-y: auto; /* Scroll if content overflows */
-    background-color: #ffffff; /* Background color */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
-    padding: 20px; /* Optional padding */
-  }
-  
-  .main-content {
-    margin-right: 320px; /* Add space for fixed bookmark container */
-  }
-  .bookmarks {
-    position: relative;
-    width: 300px; /* Adjust width as needed */
-    height: auto; /* Height adjusts based on content */
-    background-color: #ffffff; /* Background color */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
-    padding: 20px; /* Optional padding */
-    transition: position 0.3s, top 0.3s; /* Smooth transition */
-  }
-  
-  .bookmarks-fixed {
-    position: fixed;
-    top: 0; /* Adjust top based on header height */
-    right: 0;
-    width: 300px; /* Same width as before */
-    height: 100vh; /* Full height */
-    overflow-y: auto; /* Scroll if content overflows */
-  }
+body{
+  background-color: rgb(232, 234, 234);
+}
