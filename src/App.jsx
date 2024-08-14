@@ -17,9 +17,12 @@ function App() {
     }
   };
 
-  const handleMarkAsRead = time => {
+  const handleMarkAsRead = (time,blogID) => {
     const newReadingTime = (Number(readingTime) || 0) + Number(time);
     setReadingTime(newReadingTime);
+
+    const updatedBookmarks = bookmarks.filter(bookmark => bookmark.id !== blogID);
+    setBookmarks(updatedBookmarks);
   };
 
   return (

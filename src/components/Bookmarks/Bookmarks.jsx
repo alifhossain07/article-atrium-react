@@ -4,7 +4,7 @@ import Bookmark from '../Bookmark/Bookmark'
 
 const Bookmarks = ({bookmarks,readingTime}) => {
   return (
-    <div className="md:w-1/3">
+    <div className="md:w-1/3 fixed-bookmarks mt-44">
             <div>
                 <h3>Total Reading Time {readingTime} </h3>
             </div>
